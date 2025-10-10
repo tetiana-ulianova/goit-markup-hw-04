@@ -242,9 +242,9 @@ gap: 24px;
     overflow: hidden;
 }
 
-.features-list {
+/* .features-list {
   
-}
+} */
 
 .feature-item {
 width: calc((100% - 3 * 24px) / 4);
