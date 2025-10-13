@@ -6,7 +6,7 @@ body {
 }
 /* #endregion */
 
-/* region reset */
+/* #region reset */
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -27,8 +27,7 @@ a {
    }
 /* #endregion reset */
 
-
-/* region common */
+/* #region common */
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -39,9 +38,9 @@ address {
     font-style: normal;
      margin-left: auto;
 }
+/* #endregion common */
 
-
-/* header section */
+/* #region header  */
 
 .page-header {
 border-bottom: 1px solid #E7E9FC;
@@ -169,10 +168,9 @@ border-bottom: 1px solid #E7E9FC;
 .contacts:focus {
     color: #404BBF;
 }
+/* #endregion header */
 
-
-
-/* Основна інформація */
+/* #region cta */
 
 .cta-section {
     display: flex;
@@ -224,6 +222,7 @@ border-bottom: 1px solid #E7E9FC;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    text-align: center;
     margin: 48px auto 0 auto;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -232,16 +231,13 @@ border-bottom: 1px solid #E7E9FC;
 .button:focus {
     background-color: #404BBF;
 }
+/* #endregion cta */
 
-
-
-/* Our Features */
+/* #region features */
 
 .feature-container {
     margin: 0 auto 0 auto;
-    max-width: 1158px;
-    
-   
+    max-width: 1158px; 
 }
 .feature-section {
 padding: 120px 0;
@@ -278,6 +274,23 @@ gap: 24px;
 width: calc((100% - 3 * 24px) / 4);
 }
 
+.feature-icon-wrapper {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+    }
+
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    fill: #2E2F42;
+}
 
 .feature-title {
 font-weight: 500;
@@ -291,8 +304,10 @@ margin-bottom: 8px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+/* #endregion features */
 
-/* Team */
+
+/* #region team */
 .team {
     width: 100%;
     background-color: #F4F4FD;
@@ -374,9 +389,48 @@ background-color: #F4F4FD;
         text-align: center;
               }
 
+.team-social {
+    /* контейнер для іконок соцмереж */
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 40px;
+    height: 40px;
+}
+.team-social-list {
+display: flex;
+flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin-top: 16px;
+    list-style: none;
+}
 
+.team-social-list-item {
 
-/* Portfolio section*/
+}
+
+  .team-social-link {
+/* властивості іконок */
+display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    fill: #F4F4FD;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .team-social-link:hover,
+  .team-social-link:focus {
+      background-color: #404BBF;
+  }
+/* #endregion team */
+
+/* #region portfolio*/
 
 .portfolio {
      box-sizing: border-box;
@@ -492,13 +546,9 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 }
+/* #endregion portfolio */
 
-
-
-
-
-
-/* Футер */
+/* #region footer*/
 
 .footer-section {
     background-color: #2E2F42;
@@ -588,3 +638,4 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+/* #endregion footer */
