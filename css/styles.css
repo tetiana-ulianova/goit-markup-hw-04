@@ -428,7 +428,8 @@ display: inline-flex;
   .team-social-link:focus {
       background-color: #404BBF;
   }
-/* #endregion team */
+
+ /* #endregion team */
 
 /* #region portfolio*/
 
