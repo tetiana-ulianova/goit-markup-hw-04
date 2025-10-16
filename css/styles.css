@@ -582,17 +582,18 @@ width: 100%;
 align-items: center;
 
 }
+/* .logo-box {
+    margin-right: 120px;
+} */
 
 .footer-container {
     align-items: center;
     flex-direction: column;
-    align-items: flex-start;
-margin-right: 120px;
-}
-
-.logo-box {
+    align-items: baseline;
     margin-right: 120px;
 }
+
+
 
 .logo-part {
     margin-bottom: 16px;
