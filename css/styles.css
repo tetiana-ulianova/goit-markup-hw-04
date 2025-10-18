@@ -438,14 +438,14 @@ display: inline-flex;
 
 /* #region portfolio*/
 
-/* .portfolio {
-   
-} */
+.portfolio {
+padding: 120px 0;
+}
 
 .portfolio-container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 0 15px;
         }
 
 .portfolio-title {
